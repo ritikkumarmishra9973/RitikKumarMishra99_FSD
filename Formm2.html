@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <fieldset>
+    <legend><h2> Student Registration form </h2></legend>
+  <form method="get"> 
+    <table border="2" width="100%" bgcolor="orange">
+      <tr>
+        <td>
+          <label>Student name</label>
+        </td>
+        <td>
+          <input name=" txtname" type="text" value="" placeholder="Enter Name Here"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Password</label>
+        </td>
+        <td>
+          <input type="password" name="txtpass" value="" placeholder="Enter password Here"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Email Id</label>
+        </td>
+        <td>
+          <input type="email" name="txtemail" value="" placeholder="Enter Email id here"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Date of Birth</label>
+        </td>
+        <td>
+          <input type="date" name="txtdob" value=""/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Birth time</label>
+        </td>
+        <td>
+          <input type="time" name="txttime" value=""/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Gender</label>
+        </td>
+        <td>
+          <input type="radio" value="male" name="gender"/><label>Male</label>
+          <input type="radio" value="Female" name="gender"/><label>Female</label>
+          <input type="radio" value="Transgender" name="gender"/><label>Transgender</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Choose location</label>
+        </td>
+        <td>
+          <input type="checkbox" value="chk1" value="Patna"/><label>Patna</label>
+          <input type="checkbox" value="chk2" value="Jaipur"/><label>Jaipur</label>
+          <input type="checkbox" value="chk3" value="Lucknow"/><label>Lucknow</label>
+          <input type="checkbox" value="chk4" value="Noida"/><label>Noida</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Choose color</label>
+        </td>
+        <td>
+          <input type="color" name="txtcolor" value=""/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Age</label>
+        </td>
+        <td>
+          <input type="number" name="txtage" value="" placeholder="Enter Age here" min="1" max="120"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Upload Profile pic</label>
+        </td>
+        <td>
+          <input type="file" name="txtfile" value=""/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Home Address</label>
+        </td>
+        <td>
+          <textarea name="txtaddress" cols="30" rows="4"/></textarea>
+        </td>
+      </tr>
+    <tr>
+      <td>
+        <label>Choose Country</label>
+      </td>
+      <td>
+        <select name="city">
+          <option>-------------</option>
+          <option  selected value="IND">INDIA</option>
+          <option value="CHI">CHINA</option>
+          <option value="BHU">BHUTAN</option>
+          <option value="IRAN">IRAN</option>
+          <option value="IRQ">IRAQ</option>
+          <option value="JP">JAPAN</option>
+          <option value="SA">South Korea</option>
+          <option value="RUS">RUSSIA</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="button" value="Simple Button" name="btn1"/>
+        <input type="submit" value="Submit" name="btn2"/>
+        <input type="reset" value="Reset" name="btn3"/>
+      </td>
+    </tr>
+      
+  </table>
+  </fieldset>
+  </form>
+</body>
+</html>
